@@ -1,0 +1,137 @@
+.achievements {
+  align-items: center;
+  background-color: var(--neutralsilver);
+  display: flex;
+  justify-content: space-between;
+  padding: 64px 144px;
+  position: relative;
+}
+
+.achievements .section-heading {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 540px;
+}
+
+.achievements .section-title-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+
+.achievements .section-title {
+  color: transparent;
+  font-family: var(--heading-headline-2-font-family);
+  font-size: var(--heading-headline-2-font-size);
+  font-style: var(--heading-headline-2-font-style);
+  font-weight: var(--heading-headline-2-font-weight);
+  letter-spacing: var(--heading-headline-2-letter-spacing);
+  line-height: var(--heading-headline-2-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: 408px;
+}
+
+.achievements .text-wrapper {
+  color: #4d4d4d;
+  font-family: var(--heading-headline-2-font-family);
+  font-size: var(--heading-headline-2-font-size);
+  font-style: var(--heading-headline-2-font-style);
+  font-weight: var(--heading-headline-2-font-weight);
+  letter-spacing: var(--heading-headline-2-letter-spacing);
+  line-height: var(--heading-headline-2-line-height);
+}
+
+.achievements .span {
+  color: #4caf4f;
+  font-family: var(--heading-headline-2-font-family);
+  font-size: var(--heading-headline-2-font-size);
+  font-style: var(--heading-headline-2-font-style);
+  font-weight: var(--heading-headline-2-font-weight);
+  letter-spacing: var(--heading-headline-2-letter-spacing);
+  line-height: var(--heading-headline-2-line-height);
+}
+
+.achievements .description {
+  align-self: stretch;
+  color: var(--text-gray-900);
+  font-family: var(--body-regular-body-2-font-family);
+  font-size: var(--body-regular-body-2-font-size);
+  font-style: var(--body-regular-body-2-font-style);
+  font-weight: var(--body-regular-body-2-font-weight);
+  letter-spacing: var(--body-regular-body-2-letter-spacing);
+  line-height: var(--body-regular-body-2-line-height);
+  position: relative;
+}
+
+.achievements .counts {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+}
+
+.achievements .row {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 30px;
+  position: relative;
+}
+
+.achievements .element {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+}
+
+.achievements .icon {
+  height: 48px;
+  position: relative;
+  width: 48px;
+}
+
+.achievements .details {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.achievements .number {
+  color: var(--neutraldgrey);
+  font-family: var(--heading-headline-3-font-family);
+  font-size: var(--heading-headline-3-font-size);
+  font-style: var(--heading-headline-3-font-style);
+  font-weight: var(--heading-headline-3-font-weight);
+  letter-spacing: var(--heading-headline-3-letter-spacing);
+  line-height: var(--heading-headline-3-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: 191px;
+}
+
+.achievements .label {
+  color: var(--neutralgrey);
+  font-family: var(--body-regular-body-2-font-family);
+  font-size: var(--body-regular-body-2-font-size);
+  font-style: var(--body-regular-body-2-font-style);
+  font-weight: var(--body-regular-body-2-font-weight);
+  letter-spacing: var(--body-regular-body-2-letter-spacing);
+  line-height: var(--body-regular-body-2-line-height);
+  position: relative;
+  width: 191px;
+}
+
+

@@ -1,38 +1,233 @@
-.App {
-  text-align: center;
+:root {
+  --neutralwhite: rgba(255, 255, 255, 1);
+  --neutralsilver: rgba(245, 247, 250, 1);
+  --neutralgreyblue: rgba(171, 190, 209, 1);
+  --neutrallgrey: rgba(137, 147, 158, 1);
+  --neutralgrey: rgba(113, 113, 113, 1);
+  --neutraldgrey: rgba(77, 77, 77, 1);
+  --neutralblack: rgba(38, 50, 56, 1);
+  --neutralwhite-stroke: rgba(171, 190, 209, 1);
+  --brandinfo: rgba(33, 148, 243, 1);
+  --brandsecondary: rgba(38, 50, 56, 1);
+  --brandprimary: rgba(76, 175, 79, 1);
+  --shades-1: rgba(67, 160, 70, 1);
+  --shades-2: rgba(56, 142, 59, 1);
+  --shades-3: rgba(35, 125, 49, 1);
+  --shades-4: rgba(27, 94, 31, 1);
+  --shades-5: rgba(16, 62, 19, 1);
+  --tintt-1: rgba(102, 187, 105, 1);
+  --tintt-2: rgba(129, 199, 132, 1);
+  --tintt-3: rgba(165, 214, 167, 1);
+  --tintt-4: rgba(200, 230, 201, 1);
+  --tintt-5: rgba(232, 245, 233, 1);
+  --actionsuccess: rgba(46, 125, 49, 1);
+  --actionerror: rgba(229, 56, 53, 1);
+  --actionwarning: rgba(251, 192, 45, 1);
+  --heading-headline-1-font-family: "Inter-SemiBold", Helvetica;
+  --heading-headline-1-font-weight: 600;
+  --heading-headline-1-font-size: 64px;
+  --heading-headline-1-letter-spacing: 0px;
+  --heading-headline-1-line-height: 76px;
+  --heading-headline-1-font-style: normal;
+  --heading-headline-2-font-family: "Inter-SemiBold", Helvetica;
+  --heading-headline-2-font-weight: 600;
+  --heading-headline-2-font-size: 36px;
+  --heading-headline-2-letter-spacing: 0px;
+  --heading-headline-2-line-height: 44px;
+  --heading-headline-2-font-style: normal;
+  --heading-headline-3-font-family: "Inter-Bold", Helvetica;
+  --heading-headline-3-font-weight: 700;
+  --heading-headline-3-font-size: 28px;
+  --heading-headline-3-letter-spacing: 0px;
+  --heading-headline-3-line-height: 36px;
+  --heading-headline-3-font-style: normal;
+  --heading-headline-4-font-family: "Inter-SemiBold", Helvetica;
+  --heading-headline-4-font-weight: 600;
+  --heading-headline-4-font-size: 20px;
+  --heading-headline-4-letter-spacing: 0px;
+  --heading-headline-4-line-height: 28px;
+  --heading-headline-4-font-style: normal;
+  --body-regular-body-1-font-family: "Inter-Regular", Helvetica;
+  --body-regular-body-1-font-weight: 400;
+  --body-regular-body-1-font-size: 18px;
+  --body-regular-body-1-letter-spacing: 0px;
+  --body-regular-body-1-line-height: 28px;
+  --body-regular-body-1-font-style: normal;
+  --body-regular-body-2-font-family: "Inter-Regular", Helvetica;
+  --body-regular-body-2-font-weight: 400;
+  --body-regular-body-2-font-size: 16px;
+  --body-regular-body-2-letter-spacing: 0px;
+  --body-regular-body-2-line-height: 24px;
+  --body-regular-body-2-font-style: normal;
+  --body-regular-body-3-font-family: "Inter-Regular", Helvetica;
+  --body-regular-body-3-font-weight: 400;
+  --body-regular-body-3-font-size: 14px;
+  --body-regular-body-3-letter-spacing: 0px;
+  --body-regular-body-3-line-height: 20px;
+  --body-regular-body-3-font-style: normal;
+  --body-regular-body-4-font-family: "Inter-Regular", Helvetica;
+  --body-regular-body-4-font-weight: 400;
+  --body-regular-body-4-font-size: 12px;
+  --body-regular-body-4-letter-spacing: 0px;
+  --body-regular-body-4-line-height: 16px;
+  --body-regular-body-4-font-style: normal;
+  --body-medium-body-1-font-family: "Inter-Medium", Helvetica;
+  --body-medium-body-1-font-weight: 500;
+  --body-medium-body-1-font-size: 18px;
+  --body-medium-body-1-letter-spacing: 0px;
+  --body-medium-body-1-line-height: 28px;
+  --body-medium-body-1-font-style: normal;
+  --body-medium-body-2-font-family: "Inter-Medium", Helvetica;
+  --body-medium-body-2-font-weight: 500;
+  --body-medium-body-2-font-size: 16px;
+  --body-medium-body-2-letter-spacing: 0px;
+  --body-medium-body-2-line-height: 24px;
+  --body-medium-body-2-font-style: normal;
+  --body-medium-body-3-font-family: "Inter-Medium", Helvetica;
+  --body-medium-body-3-font-weight: 500;
+  --body-medium-body-3-font-size: 14px;
+  --body-medium-body-3-letter-spacing: 0px;
+  --body-medium-body-3-line-height: 20px;
+  --body-medium-body-3-font-style: normal;
+  --body-medium-body-4-font-family: "Inter-Medium", Helvetica;
+  --body-medium-body-4-font-weight: 500;
+  --body-medium-body-4-font-size: 12px;
+  --body-medium-body-4-letter-spacing: 0px;
+  --body-medium-body-4-line-height: 16px;
+  --body-medium-body-4-font-style: normal;
+  --button-link-medium-font-family: "Inter-Regular", Helvetica;
+  --button-link-medium-font-weight: 400;
+  --button-link-medium-font-size: 16px;
+  --button-link-medium-letter-spacing: 0px;
+  --button-link-medium-line-height: 20px;
+  --button-link-medium-font-style: normal;
+  --shadow-2px: 0px 2px 4px 0px rgba(171, 190, 209, 0.6);
+  --shadow-4px: 0px 4px 8px 0px rgba(171, 190, 209, 0.4);
+  --shadow-6px: 0px 6px 12px 0px rgba(171, 190, 209, 0.3);
+  --shadow-8px: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
+  --shadow-16px: 0px 16px 32px 0px rgba(171, 190, 209, 0.3);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
+  width: 1002.34px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 43.85px;
+  padding: 11.14px 100.23px;
+  position: relative;
+  background-color: var(--neutralwhite);
 }
 
-.App-link {
-  color: #61dafb;
+.header .div {
+  display: inline-flex;
+  align-items: center;
+  gap: 5.57px;
+  position: relative;
+  flex: 0 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header .icon {
+  position: relative;
+  width: 24.36px;
+  height: 16.71px;
+}
+
+.header .nexcent {
+  position: relative;
+  width: 77.61px;
+  height: 14.38px;
+}
+
+.header .right-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 22.27px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.header .header-menu {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 16.71px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.header .why-justgo {
+  width: 71px;
+  text-align: center;
+  position: relative;
+  margin-top: -0.7px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--neutraldgrey);
+  font-size: 11.1px;
+  letter-spacing: 0;
+  line-height: 16.7px;
+}
+
+.header .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.7px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--neutraldgrey);
+  font-size: 11.1px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 16.7px;
+  white-space: nowrap;
+}
+
+.header .why-justgo-2 {
+  width: fit-content;
+  white-space: nowrap;
+  position: relative;
+  margin-top: -0.7px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--neutraldgrey);
+  font-size: 11.1px;
+  letter-spacing: 0;
+  line-height: 16.7px;
+}
+
+.header .button {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5.57px;
+  padding: 9.74px 22.27px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--brandprimary);
+  border-radius: 2.78px;
+}
+
+.header .label {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.7px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--neutralwhite);
+  font-size: 11.1px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 16.7px;
+  white-space: nowrap;
+}
+
+.header .element-arrows-directions {
+  position: relative;
+  width: 11.14px;
+  height: 11.14px;
 }

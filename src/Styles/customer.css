@@ -1,0 +1,144 @@
+.customer-s {
+    align-items: center;
+    background-color: var(--neutralsilver);
+    display: flex;
+    gap: 78px;
+    padding: 32px 144px;
+    position: relative;
+    
+  }
+  
+  .customer-s .image {
+    height: 358px;
+    margin-bottom: -24px;
+    margin-left: -16px;
+    margin-top: -8px;
+    object-fit: cover;
+    position: relative;
+    width: 358px;
+  }
+  
+  .customer-s .frame {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 32px;
+    position: relative;
+  }
+  
+  .customer-s .content {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .customer-s .we-have-enjoyed {
+    align-self: stretch;
+    color: var(--neutralgrey);
+    font-family: var(--body-medium-body-2-font-family);
+    font-size: var(--body-medium-body-2-font-size);
+    font-style: var(--body-medium-body-2-font-style);
+    font-weight: var(--body-medium-body-2-font-weight);
+    letter-spacing: var(--body-medium-body-2-letter-spacing);
+    line-height: var(--body-medium-body-2-line-height);
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .customer-s .div {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .customer-s .text-wrapper {
+    align-self: stretch;
+    color: var(--brandprimary);
+    font-family: var(--heading-headline-4-font-family);
+    font-size: var(--heading-headline-4-font-size);
+    font-style: var(--heading-headline-4-font-style);
+    font-weight: var(--heading-headline-4-font-weight);
+    letter-spacing: var(--heading-headline-4-letter-spacing);
+    line-height: var(--heading-headline-4-line-height);
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .customer-s .p {
+    align-self: stretch;
+    color: var(--neutrallgrey);
+    font-family: var(--body-regular-body-2-font-family);
+    font-size: var(--body-regular-body-2-font-size);
+    font-style: var(--body-regular-body-2-font-style);
+    font-weight: var(--body-regular-body-2-font-weight);
+    letter-spacing: var(--body-regular-body-2-letter-spacing);
+    line-height: var(--body-regular-body-2-line-height);
+    position: relative;
+  }
+  
+  .customer-s .frame-2 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 32px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .customer-s .img {
+    flex: 0 0 auto;
+    position: relative;
+  }
+  
+  .customer-s .frame-3 {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 8px;
+    padding: 8px;
+    position: relative;
+  }
+  
+  .customer-s .text-wrapper-2 {
+    color: var(--brandprimary);
+    font-family: var(--heading-headline-4-font-family);
+    font-size: var(--heading-headline-4-font-size);
+    font-style: var(--heading-headline-4-font-style);
+    font-weight: var(--heading-headline-4-font-weight);
+    letter-spacing: var(--heading-headline-4-letter-spacing);
+    line-height: var(--heading-headline-4-line-height);
+    margin-top: -1px;
+    position: relative;
+    width: 188px;
+  }
+  
+  .customer-s .element-arrows-directions {
+    height: 24px !important;
+    margin-right: -13px !important;
+    position: relative !important;
+    width: 24px !important;
+  }
+
+  .community {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 1110px;
+}
+
